@@ -1,0 +1,31 @@
+#contact{
+    width: 1080px;
+    height: 335px;
+    margin:30px auto 60px;
+}
+.contactText{
+    width: 500px;
+    height: 210px;
+    padding:40px;
+    position: relative;
+    left: 250px;
+    top:50px;
+    text-align: left;
+    border: 1px dashed orangered;
+}
+.contactText ul{
+    display: block;
+    margin-left: 40px;
+    font-size: 14px;
+}
+.contactText li{
+    margin: 15px auto;
+}
+.contactText span{
+    display: block;
+    color: orangered;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 120px 30px;
+
+}

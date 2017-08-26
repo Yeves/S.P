@@ -1,0 +1,90 @@
+#content{
+    width: 1198px;
+    height:auto;
+    margin: -60px auto -20px;
+}
+#loginDiv{
+    width: 400px;
+    height: 300px;
+    margin: 80px auto 0;
+    padding:50px;
+    background-color: #f2dede;
+}
+#loginDiv span{
+    display:inline-block;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-left: 170px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #f5683d;
+}
+
+#loginDiv input{
+    width: 250px;
+    height: 30px;
+    margin-top:10px;
+    background-color: #EDE5EA;
+}
+#loginDiv font{
+    display: inline-block;
+    width:80px;
+}
+#loginDiv button{
+    width: 130px;
+    height:40px;
+    margin:30px 135px 10px;
+    color: white;
+    font-size: 18px;
+    border: 2px solid transparent;
+    background-color: #4591fb;
+}
+#loginDiv a{
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+    color: red;
+    text-decoration: none;
+    text-align: center;
+}
+/*content开始*/
+
+.desc{
+    width: 650px;
+    height: 400px;
+    margin: 150px auto;
+    border: 1px dashed red;
+}
+#content .desc h3{
+    display: block;
+    color: orangered;
+    width: 600px;
+    height: 30px;
+    padding-top: 20px;
+    margin: 10px auto;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+}
+#content .desc p{
+    padding-top: 40px;
+    padding-left: 24px;
+    line-height: 35px;
+    color: #2e2e2e;
+}
+#content .desc span{
+    display: block;
+    float: right;
+    padding-top: 30px;
+    padding-right: 30px;
+    color: #2e2e2e;
+}
+.PrintA{
+    display: inline-block;
+    position: relative;
+    top:120px;
+    font-size: 20px;
+    color: #51c332;
+    text-decoration: none;
+}
+

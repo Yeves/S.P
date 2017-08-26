@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>S.P.校园共享打印</title>
+    <link  rel="shortcut icon" href="../img/S.P.ico">
+
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/print.css">
+    <script src="../js/perfectMove.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/print.js"></script>
+
+
+</head>
+<body>
+<!--head开始-->
+<div id="head">
+    <div class="index-top-nr1">
+        <!--index-top-nr1开始-->
+        <img class="logo" src="../img/logo1.png" alt="共享打印logo">
+        <span>欢迎访问S.P.校园共享打印平台!</span>
+        <div class="loginBar">
+            <a href="../html/login.html"> <i class="loginBox"><img src="../img/login_lo.png" alt=""></i>   登录</a>
+            <a href="../html/register.html"><i class="regesterBox"><img src="../img/login_03.jpg" alt=""></i> 注册</a>
+        </div>
+    </div><!--index-top-nr1结束-->
+    <div id="title">
+        <img src="../img/ad4.png" alt="标题">
+    </div>
+    <div class="navBar">
+        <ul class="navList">
+            <li ><a href="../index.html">首页</a></li>
+            <li><a href="../html/expresion.html">使用说明</a></li>
+            <li><a href="../html/print.html">打印中心</a></li>
+            <li><a href="../html/credit.html">信用积分</a></li>
+            <li><a href="application.html">岗位申请及管理</a></li>
+            <li><a href="../html/about.html">关于我们</a></li>
+            <li><a href="contact.html">联系我们</a></li>
+            <li class="bg"></li>
+        </ul>
+    </div>
+</div><!--head结束-->
+
+
+<!--内容开始-->
+<div id="printContent">
+    <span>打印选项</span>
+    <form action="#" class="pritForm">
+        <font>选择文件：</font>
+        <input type='text' name='textfield' id='textfield' class='txt'/> <font id="rule">打印收费标准？</font><br>
+        <input type="file" name="fileField" class="file" id="fileField" size="28"
+               onchange="document.getElementById('textfield').value=this.value"/><br>
+        
+
+        <font class="range">页码范围:</font><br>
+        <div class="placeholder"></div> <input type="radio" name="range" >全部 <br>
+        <div class="placeholder"></div> <input type="radio" name="range">当前页 <br>
+        <div class="placeholder"></div> <input type="radio" name="range" >奇数页 <br>
+        <div class="placeholder"></div> <input type="radio" name="range" >偶数页<br>
+        <div class="placeholder"></div><input type="radio" name="range" >页码范围&nbsp;&nbsp;<input type="text" class="rangeText"> <br>
+
+
+           <font>单双面:</font>
+        <select name="" id="pageSide">
+                <option value="">单面打印（默认）</option>
+                <option value="">双面打印</option>
+            </select>
+        <br>
+        <font>纸张选择:</font><select name="" id="paperType">
+            <option value="">A4（默认）</option>
+            <option value="">A1</option>
+            <option value="">A2</option>
+            <option value="" >A3</option>
+            <option value="">A0</option>
+            <option value="">A5</option>
+            <option value="">A6</option>
+        </select> <br>
+
+        <font>黑白彩印</font>
+        <select name="" id="">
+            <option value="">黑白</option>
+            <option value="">彩印</option>
+
+        </select>
+        <br>
+        <font>打印份数：</font><input type="text"> <a href="">1</a><a href="">1</a> <br>
+        <font>打印地点：</font>
+        <select name="" id="address">
+            <option value="">二教</option>
+            <option value="">三教</option>
+            <option value="">八教</option>
+            <option value="">中心食堂</option>
+        </select>
+        <br>
+        <font>取件时间：</font>
+        <select name="" id="Time">
+            <option value="">现场取件</option>
+            <option value="">10分钟后</option>
+            <option value="">15分钟后</option>
+            <option value="">30分钟后</option>
+            <option value="">其他</option>
+        </select>
+        <br>
+        <font>是否开票：</font>
+        <select name="" id="ticket">
+            <option value="">不开发票</option>
+            <option value="">电子发票</option>
+            <option value="">纸质发票</option>
+            <option value="">注：非现开发票，后期补</option>
+
+        </select>
+        <br>
+        <div class="placeholder"></div>
+        <input type="radio" class="send">派送上门 <span id="tips">？ </span>
+        <label id="deliver" style="visibility: hidden"><font id="deliverF">派送地址：</font><input id="deliverI" type="text" placeholder="填写派送时间和地址"></label><br>
+        <font>总计：</font><input type="text" placeholder="6.66"><font>元</font>（收费标准见蓝字）
+        <div id="tipBox">
+            送货收费标准：<br><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;按照派送时间收费,加急件每一份5元，其余每份2元。
+
+        </div>
+
+        <br>
+
+        <button id="change">确认提交</button>
+         <!--<a  href="../html/begin.html">+</a>&ndash;&gt;-->
+    </form>
+    <div id="rulePic">
+        <img src="../img/NormalRule.png" alt="">
+        <img src="../img/colorRule.png" alt="">
+    </div>
+</div>
+
+<!--
+
+<!--foot开始-->
+<div class="foot"><!--foot最外层的盒子-->
+    <div class="foot-box">            <!--foot居中的盒子-->
+        <img src="../img/重邮logo.png">
+        <ul>
+            <li><a href="../index.html">平台首页</a><span></span></li>
+            <li><a href="../html/print.html">打印文件</a><span></span></li>
+            <li><a href="credit.html">信用积分</a><span></span></li>
+            <li><a href="contact.html">联系我们</a><span></span></li>
+            <li><a href="http://www.cqupt.edu.cn/cqupt/index.shtml">学校首页</a><span></span></li>
+            <li><a href="http://hongyan.cqupt.edu.cn/">红岩网校</a></li>
+        </ul>
+        <div class="copyRight clearfix">
+            <font class="foot-box-pre-1">S.P.校园共享打印工作室&nbsp;&nbsp;版权所有&nbsp;&copy;&nbsp;2017 6.&nbsp;All Rights
+                Reversed.&nbsp;&nbsp;电话：13548751247</font>
+            <font class="foot-box-pre-2">地址：重庆邮电大学光电工程学院&nbsp;&nbsp;渝网文（2017）1886—021号&nbsp;&nbsp;渝ICP备15021278号</font>
+        </div>
+    </div>
+</div>    <!--foot-box结束-->
+<script>
+showRule();
+    var oSend=document.getElementsByClassName('send')[0];
+    var oTips=document.getElementById('tips');
+    var oDiv=document.getElementById('tipBox');
+    var oBtn=document.getElementById('change');
+    var oLabel=document.getElementById('deliver');
+    var onof=true;
+
+    oTips.onmouseover=function(){
+        oDiv.style.visibility='visible';
+    };
+    oTips.onmouseout=function(){
+        oDiv.style.visibility='hidden';
+    };
+    oSend.onmouseover=function(){
+        oDiv.style.visibility='visible';
+    };
+    oSend.onmouseout=function(){
+        oDiv.style.visibility='hidden';
+    };
+
+    oBtn.onclick= function () {
+        if(confirm("确定要提交？提交后不可更改！")){
+
+            window.open("pay.html");
+        }
+
+
+    };
+    oSend.onclick= function (){
+        if(oSend.checked && onof){
+            oLabel.style.visibility="visible";
+            onof=false;
+        }
+        else {
+            oLabel.style.visibility="hidden";
+            oSend.checked=false;
+            onof=true;
+        }
+    };
+
+
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,161 @@
+.main{
+    height: 520px;
+    width: 800px;
+    margin: 20px auto;
+    border: 1px solid red;
+}
+.leftBox{
+    padding:30px;
+}
+.payType{
+    width: 200px;
+    height: 70px;
+    line-height: 70px;
+    margin:20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: orangered;
+    border:1px solid yellow;
+}
+.rightBox1{
+    width: 500px;
+    height: 100px;
+    position: relative;
+    top:-305px;
+    left: 300px;
+    border: 1px solid green;
+}
+.rightBox1 span{
+    display: block;
+    width: 0;
+    height: 0;
+    position: relative;
+    top:5px;
+    left: -80px;
+    border-width: 28px;
+    border-color:#65B5F4 #65B5F4 transparent transparent ;
+    border-style: solid;
+    -webkit-transform:rotate(45deg);
+}
+.rightBox1 button{
+    width:400px;
+    height:40px;
+    margin-left:50px;
+    background-color: #00A0E9;
+    border:1px solid transparent;
+    font-size: 20px;
+    color: white;
+}
+.rightBox1 strong{
+    color: blue;
+    font-size: 24px;
+}
+.rightBox2{
+    width: 500px;
+    height: 300px;
+    position: relative;
+    top:-608px;
+    left: 300px;
+    border: 1px solid red;
+    display: none;
+}
+.rightBox2 span{
+    display: block;
+    width: 0;
+    height: 0;
+    position: relative;
+    top:100px;
+    left: -80px;
+    border-width: 28px;
+    border-color:#65B5F4 #65B5F4 transparent transparent ;
+    border-style: solid;
+    -webkit-transform:rotate(45deg);
+}
+.rightBox3{
+    width: 500px;
+    height: 300px;
+    position: relative;
+    top:-908px;
+    left: 300px;
+    border: 1px solid black;
+    display: none;
+}
+.rightBox3 span{
+    display: block;
+    width: 0;
+    height: 0;
+    position: relative;
+    top:190px;
+    left: -80px;
+    border-width: 28px;
+    border-color:#65B5F4 #65B5F4 transparent transparent ;
+    border-style: solid;
+    -webkit-transform:rotate(45deg);
+}
+.active{
+    background-color:#65B5F4;
+}
+.pay-way{
+    display:flex;
+    justify-content:space-around;
+    margin:65px auto 50px;
+}
+.pay-way img{
+    width:100px;
+    height:100px;
+    margin-left:10px ;
+}
+#other{
+    font-size:26px;
+    color:#666;
+    text-decoration:none;
+}
+#pay {
+    display:none;
+    width: 900px;
+    height: 250px;
+    margin: 120px auto 10px;
+    position: relative;
+    top:-100px;
+}
+.place{
+    width: 800px;
+    height: 250px;
+    margin: 0 auto;
+    border:1px solid transparent;
+}
+#pay a img{
+    width:200px;
+    height: 200px;
+}
+#pay a{
+    text-decoration: none;
+
+}
+#pay font{
+    display: inline-block;
+    width: 200px;
+    font-size: 24px;
+    color: #51c332;
+    text-align: center;
+}
+.titleSpan {
+    display: block;
+    position: relative;
+    top: 10px;
+    left:550px;
+     margin-top: 10px;
+    font-size: 30px;
+     font-weight: bold;
+     color: orangered;
+
+}
+#detailContent {
+    width: 1078px;
+    height: 500px;
+    margin: 80px auto 60px;
+    border: 1px solid transparent;
+    background: url("../img/centerBg.png") no-repeat center;
+
+}

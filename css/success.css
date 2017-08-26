@@ -1,0 +1,27 @@
+#successContent{
+    width: 600px;
+    height: 210px;
+    margin: 0 auto 150px;
+    background: url("../img/success.gif") no-repeat center;
+}
+.successTitle{
+    display: block;
+    width: 180px;
+    margin: 50px auto 0;
+    font-size: 28px;
+    font-weight: bold;
+    color: #51C332;
+}
+#successContent span{
+    display: block;
+    margin-bottom: 150px;
+    position: relative;
+    bottom: -250px;
+    left: 20%;
+    font-size: 28px;
+}
+#successContent span font{
+    color: orangered;
+}
+
+

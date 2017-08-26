@@ -1,0 +1,93 @@
+#printContent{
+    width: 800px;
+    height:auto;
+    margin: 80px auto;
+    padding:50px;
+    border: 1px dashed orangered;
+}
+#printContent form{
+    width:auto;
+    height:auto;
+    margin:40px 0 0 30px;
+}
+ .pritForm #rule{
+     color:blue;
+     width: 130px;
+     display: inline-block;
+     position: relative;
+     left:120px;
+     padding-bottom:20px;
+}
+ #rulePic{
+     position: absolute;
+     left:600px;
+     top:540px;
+     visibility: hidden;
+ }
+#printContent form font{
+    display: inline-block;
+    width: 108px;
+    margin: 20px 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: orangered;
+}
+#printContent span{
+    display: block;
+    width: 800px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #51C332;
+}
+#fileField{
+    margin-left: 100px;
+}
+#printContent .range input{
+    display: block;
+     margin-left: 100px;
+ }
+#printContent input{
+    outline: none;
+}
+#printContent button{
+    width: 100px;
+    height: 40px;
+    position: relative;
+    left:250px;
+    top:-60px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    background-color:#009EE8 ;
+}
+.placeholder{
+    display: inline-block;
+    width: 100px;
+    height: 10px;
+    border: 1px solid transparent;
+}
+#printContent #tips{
+    width: 100px;
+    position:relative;
+    left:150px;
+    top:-32px;
+    color: orangered;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#tipBox{
+    visibility:hidden;
+    width: 300px;
+    height: auto;
+    padding:10px;
+    position: relative;
+    top: -210px;
+    left:210px;
+    border: 1px dashed orangered;
+background-color: #f1f1f1;
+}
+

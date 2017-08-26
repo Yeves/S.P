@@ -1,0 +1,89 @@
+
+/*content开始*/
+
+#detailContent{
+    width: 1078px;
+    height: 650px;
+    padding:90px 0;
+    margin: 40px auto;
+}
+.contentDiv{
+    width: 750px;
+    margin: 0 auto;
+}
+
+#detailContent .contentNav{
+    float: left;
+    position: relative;
+    left: 100px;
+    margin:15px;
+    height: 150px;
+    width: 250px;
+    text-align: center;
+    background-color:#51C332;
+    border-radius: 3px;
+    box-shadow: -5px -5px 12px #869086;
+}
+
+.contentDiv h3{
+    display: inline-block;
+    font-size: 30px;
+    color: white;
+    position: relative;
+    top:25%;
+}
+.evaluateDiv{
+    width: 800px;
+    height: auto;
+    margin-bottom: 50px;
+    padding:25px  50px 100px 50px;
+    border: 1px dashed orangered;
+    position: relative;
+    top:220px;
+    left: 100px;
+
+}
+.evaluateDiv span{
+    color: orangered;
+    font-size: 24px;
+    font-weight: bold;
+}
+.evaluateDiv p{
+    text-indent: 2em;
+    font-size: 14px;
+    line-height: 35px;
+}
+
+.evaluateDiv font{
+    position: relative;
+    left: 650px;
+    top:40px;
+    font-size: 14px;
+}
+.loadingDiv{
+    width: 800px;
+    height: auto;
+    margin-bottom: 50px;
+    padding:25px  50px 100px 50px;
+    border: 1px dashed orangered;
+    position: relative;
+    top:220px;
+    left: 100px;
+    display: none;
+}
+.loadingDiv span{
+    color: orangered;
+    font-size: 24px;
+    font-weight: bold;
+}
+.loadingDiv p{
+    text-indent: 2em;
+    font-size: 14px;
+    line-height: 35px;
+}
+.loadingDiv font{
+    position: relative;
+    left: 650px;
+    top:40px;
+    font-size: 14px;
+}

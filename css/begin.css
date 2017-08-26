@@ -1,0 +1,15 @@
+#beginContent{
+    width: 600px;
+    height: 400px;
+    margin: -15px auto 70px;
+    background: url("../img/pringting.gif") no-repeat center;
+}
+#beginContent span{
+    display: block;
+    margin-bottom: 150px;
+    position: relative;
+    bottom: -370px;
+    left: 30%;
+    font-size: 28px;
+}
+

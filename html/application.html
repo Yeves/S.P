@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>S.P.校园共享打印</title>
+    <link  rel="shortcut icon" href="../img/S.P.ico">
+
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/application.css">
+    <script src="../js/perfectMove.js"></script>
+    <script src="../js/common.js"></script>
+</head>
+<body>
+<!--head开始-->
+<div id="head">
+    <div class="index-top-nr1">
+        <!--index-top-nr1开始-->
+        <img class="logo" src="../img/logo1.png" alt="校园共享打印">
+        <span>欢迎访问S.P.校园共享打印平台!</span>
+        <div class="loginBar">
+            <a href="../html/login.html"> <i class="loginBox"><img src="../img/login_lo.png" alt=""></i>   登录</a>
+            <a href="../html/register.html"><i class="regesterBox"><img src="../img/login_03.jpg" alt=""></i> 注册</a>
+        </div>
+    </div><!--index-top-nr1结束-->
+    <div id="title">
+        <img src="../img/ad4.png" alt="标题">
+    </div>
+    <div class="navBar">
+        <ul class="navList">
+            <li ><a href="../index.html">首页</a></li>
+            <li><a href="../html/expresion.html">使用说明</a></li>
+            <li><a href="../html/print.html">打印中心</a></li>
+            <li><a href="../html/credit.html">信用积分</a></li>
+            <li><a href="application.html">岗位申请及管理</a></li>
+            <li><a href="../html/about.html">关于我们</a></li>
+            <li><a href="contact.html">联系我们</a></li>
+            <li class="bg"></li>
+        </ul>
+    </div>
+</div><!--head结束-->
+
+
+<!--内容开始-->
+<div class="applDiv">
+    <div class="info">
+        <span>勤工助学岗位需求信息</span><br>
+        <div class="infoList">
+<ul id="infoList">
+    <li><img src="../img/data.png" alt=""><br><font>数据处理</font></li>
+    <li><img src="../img/duty.png" alt=""><br><font>巡查值班</font></li>
+    <li><img src="../img/setting.png" alt=""><br><font>设备维护</font></li>
+    <li><img src="../img/deliver.png" alt=""><br><font>校园派送</font></li>
+    <li><img src="../img/dinner.png" alt=""><br><font>食堂服务</font></li>
+    <li><img src="../img/book.png" alt=""><br><font>图书整理</font></li>
+    <li><img src="../img/Market.png" alt=""><br><font>学生超市</font></li>
+    <li><img src="../img/cheking.png" alt=""><br><font>楼栋巡查</font></li>
+</ul>
+        </div>
+    </div>
+    <!--<hr style="height:1px;border:none;border-top:1px dashed orangered;margin-top: 50px">-->
+
+    <form action="" class="apply">  <br>
+        <span>勤工助学岗位申请</span><br>
+       <font >下载岗位申请表：</font> <input type="button"  id="downLoad" value="下载"><em id="table">勤工助学岗位申请表.doc</em><br>
+        <font id="titleFont">提交岗位申请表</font><br>
+        <font>选择文件：</font>
+        <input type='text' name='textfield' id='textfield' class='txt'/><br>
+        <input type="file" name="fileField" class="file" id="fileField" size="28"
+               onchange="document.getElementById('textfield').value=this.value"/><br>
+<button>提交申请</button>
+    </form>
+</div>
+<!--内容结束-->
+
+<!--foot开始-->
+<div class="foot"><!--foot最外层的盒子-->
+    <div class="foot-box">            <!--foot居中的盒子-->
+        <img src="../img/CYLogo.png" alt="重庆邮电大学">
+        <ul>
+            <li><a href="../index.html">平台首页</a><span></span></li>
+            <li><a href="../html/print.html">打印文件</a><span></span></li>
+            <li><a href="../html/credit.html">信用积分</a><span></span></li>
+            <li><a href="contact.html">联系我们</a><span></span></li>
+            <li><a href="http://www.cqupt.edu.cn/cqupt/index.shtml">学校首页</a><span></span></li>
+            <li><a href="http://hongyan.cqupt.edu.cn/">红岩网校</a></li>
+        </ul>
+        <div class="copyRight clearfix">
+            <font class="foot-box-pre-1">S.P.校园共享打印工作室&nbsp;&nbsp;版权所有&nbsp;&copy;&nbsp;2017 6.&nbsp;All Rights Reversed.&nbsp;&nbsp;电话：13548751247</font>
+            <font class="foot-box-pre-2">地址：重庆邮电大学光电工程学院&nbsp;&nbsp;渝网文（2017）1886—021号&nbsp;&nbsp;渝ICP备15021278号</font>
+        </div>
+    </div>
+</div>    <!--foot-box结束-->
+<script>
+    var oDownLoad=document.getElementById("downLoad");
+    var oDownText=document.getElementById("table");
+    var oBtn=document.getElementsByTagName("button")[0];
+
+    oDownLoad.onclick=function(){
+        window.location.href="../勤工助学岗位申请表.doc"
+    };
+    oDownText.onclick=function(){
+        window.location.href="../勤工助学岗位申请表.doc"
+    };
+            oBtn.onclick=function(){
+                if(confirm("是否提交？")){
+                    if(confirm("提交成功！")){
+                        window.open("../index.html");
+                    }
+
+                }
+
+            };
+
+    var oDiv=document.getElementsByClassName("infoList")[0];
+    var oUl=document.getElementById('infoList');
+    var aLi=document.getElementsByTagName('li');
+    var timer=null;
+
+    oUl.innerHTML+=oUl.innerHTML;
+    oUl.style.width=aLi.length*aLi[0].offsetWidth+'px';
+
+
+    timer=setInterval(RollMove(1),30);
+    oDiv.onmouseover=function(){
+        clearInterval(timer);
+    };
+    oDiv.onmouseout=function(){
+        timer=setInterval(RollMove(1),30);
+    };
+
+    function RollMove(iSpeed){
+        if (oUl.offsetLeft<-oUl.offsetWidth/2) {
+            oUl.style.left=0;
+        }
+        else if(oUl.offsetLeft>0)
+        {
+            oUl.style.left=-oUl.offsetWidth/2+'px';
+
+        }
+
+        oUl.style.left=oUl.offsetLeft+iSpeed+'px';
+    }
+
+</script>
+</body>
+</html>

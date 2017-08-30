@@ -1,0 +1,189 @@
+#content{
+    width: 1198px;
+    margin: 1px auto;
+    position: relative;
+}
+
+#regDiv{
+    width: 470px;
+    margin: 40px auto 20px;
+    padding:40px 20px 40px 60px;
+    background-color: #f2dede;
+}
+#regDiv .regTips{
+    margin:5px 0 5px 80px;
+    padding-top:5px;
+    font-size: 14px;
+}
+#regDiv span{
+    display:inline-block;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-left: 170px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #f5683d;
+}
+
+#regDiv input{
+    width: 250px;
+    height: 30px;
+    margin-top:10px;
+    background-color: #EDE5EA;
+}
+#regDiv font{
+    display: inline-block;
+    width:80px;
+}
+#regDiv button{
+    width: 130px;
+    height:40px;
+    margin:30px 135px 10px;
+    color: white;
+    font-size: 18px;
+    border: 2px solid transparent;
+    background-color: #4591fb;
+}
+#regDiv #loginBtn {
+    width: 130px;
+    height:40px;
+    color: white;
+    font-size: 18px;
+    border: 2px solid transparent;
+    background-color: #51C332;
+}
+#regDiv a{
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+    color: red;
+    text-decoration: none;
+    text-align: center;
+}
+
+#detailContent{
+    width: 1080px;
+    height: auto;
+    padding-top: 60px;
+    margin: 0 auto;
+    border: 1px solid transparent;
+}
+#contentDiv{
+    width: 540px;
+    height:320px;
+    margin: 10px auto;
+    text-align: center;
+}
+#contentDiv h3{
+    display: inline-block;
+    font-size: 30px;
+    line-height: 50px;
+    color: white;
+    position: relative;
+    top:10%;
+}
+
+#detailContent .contentNav{
+    float: left;
+    margin:15px;
+    width: 150px;
+    height: 50px;
+    background-color:#51C332;
+    box-shadow: -5px -5px 25px #869086;
+
+}
+#userType{
+    margin-top: 10px;
+    background-color: #EDE5EA;
+}
+
+/*********login***********/
+
+#loginDiv{
+    width: 470px;
+    margin: 0 auto 50px;
+    padding:100px 20px 100px 60px;
+    visibility: hidden;
+    background-color: #f2dede;
+    position: absolute;
+    top:-5px;
+    left:27%;
+}
+#loginDiv span{
+    display:inline-block;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-left: 170px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #f5683d;
+}
+
+#loginDiv input{
+    width: 250px;
+    height: 30px;
+    margin-top:10px;
+    background-color: #EDE5EA;
+}
+#loginDiv font{
+    display: inline-block;
+    width:80px;
+}
+#loginDiv button{
+    width: 130px;
+    height:40px;
+    margin:30px 135px 10px;
+    color: white;
+    font-size: 18px;
+    border: 2px solid transparent;
+    background-color: #4591fb;
+}
+#loginDiv #toRegBtn{
+    idth: 130px;
+    height:40px;
+    color: white;
+    font-size: 18px;
+    border: 2px solid transparent;
+    background-color: #51C332;
+}
+
+#loginDiv a{
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+    color: red;
+    text-decoration: none;
+    text-align: center;
+}
+/*content开始*/
+
+#detailContent{
+    width: 1080px;
+    height: auto;
+    padding-top: 60px;
+    margin: 0 auto;
+    border: 1px solid transparent;
+}
+#contentDiv{
+    width: 540px;
+    height:150px;
+    margin: 10px auto;
+    text-align: center;
+}
+#contentDiv h3{
+    display: inline-block;
+    font-size: 30px;
+    color: white;
+    position: relative;
+    top:10%;
+}
+
+#detailContent .contentNav{
+    float: left;
+    margin:15px;
+    width: 150px;
+    height: 50px;
+    background-color:#51C332;
+    box-shadow: -5px -5px 12px #869086;
+
+}

@@ -7,8 +7,11 @@
 
     <link rel="stylesheet" href="../css/layout.css">
     <link rel="stylesheet" href="../css/login.css">
-    <script src="../js/perfectMove.js"></script>
-    <script src="../js/common.js"></script>
+    <!--<script src="../js/perfectMove.js"></script>-->
+    <!--<script src="../js/common.js"></script>-->
+    <script src="../js/login.js"></script>
+    <script src="../js/ajax.js"></script>
+    <script src="../js/login.js"></script>
 </head>
 <body>
 <!--head开始-->
@@ -43,9 +46,9 @@
 <div id="loginDiv">
 
     <span>登录</span><br>
-    <font>用户名：</font><input type="text" placeholder="&nbsp;校园一卡通统一识别码"><br>
-    <font>输入密码：</font><input type="password"><br>
-    <a href="login.html"><button>登录</button></a>
+    <font>用户名：</font><input class="LoginUsername" type="text" placeholder="&nbsp;校园一卡通统一识别码"><br>
+    <font>输入密码：</font><input class="loginPass" type="password"><br>
+    <button class="loginBtn">登录</button>
     <br>
     <a href="register.html">用户注册</a>
 </div>
@@ -55,7 +58,7 @@
 <!--foot开始-->
 <div class="foot"><!--foot最外层的盒子-->
     <div class="foot-box">            <!--foot居中的盒子-->
-        <img src="../img/重邮logo.png">
+        <img src="../img/CYLogo.png">
         <ul>
             <li><a href="../index.html">平台首页</a><span></span></li>
             <li><a href="../html/print.html">打印文件</a><span></span></li>

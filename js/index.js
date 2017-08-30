@@ -8,6 +8,8 @@ window.onload=function() {
     var oBg = aLi[aLi.length - 1];
     var minzIndex = 2;
 
+
+
     //布局转换
 
     for (var i = 0; i < aDiv.length; i++) {

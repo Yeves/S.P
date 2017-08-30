@@ -4,13 +4,12 @@
     <meta charset="UTF-8">
     <title>S.P.校园共享打印</title>
     <link  rel="shortcut icon" href="../img/S.P.ico">
-
     <link rel="stylesheet" href="../css/layout.css">
-    <link rel="stylesheet" href="../css/register.css">
-    <!--<script src="../js/perfectMove.js"></script>-->
-    <!--<script src="../js/common.js"></script>-->
+    <link rel="stylesheet" href="../css/reg_Login.css">
+    <script src="../js/perfectMove.js"></script>
+    <script src="../js/common.js"></script>
     <script src="../js/ajax.js"></script>
-    <script src="../js/login.js"></script>
+    <script src="../js/reg_Login.js"></script>
 
 </head>
 <body>
@@ -43,24 +42,33 @@
 </div><!--head结束-->
 
 <div id="content">
-    <div id="loginDiv">
+    <div id="regDiv">
 
         <span>注册</span><br>
-        <font>用户名：</font><input id="regUsername" type="text" placeholder="&nbsp;校园一卡通统一识别码"><br>
+        <font>用户名：</font><input id="regUsername" type="text" placeholder="&nbsp;请输入3-16位用户名"><br>
         <div class="regTips"></div>
-        <font>输入密码：</font><input class="regPass" type="password" placeholder="&nbsp;初始密码身份证后六位"><br>
-        <font>确认密码：</font><input class="regPass" type="password"><br>
-        <font>用户类型：</font><select name="" id="userType">
-            <option value="student">学生</option>
-            <option value="teacher">教职员工</option>
-           <option value="other">其他职业</option>
-
-        </select>
+        <font>输入密码：</font><input type="password"  class="regPass" placeholder="&nbsp;请输入密码"><br>
+        <font>确认密码：</font><input type="password"  class="regPass" placeholder="&nbsp;请再次输入密码"><br>
+        <font>用户类型：</font>
+        <select name="" id="userType">
+        <option value="student">学生</option>
+        <option value="teacher">教职员工</option>
+        <option value="other">其他职业</option>
+    </select>
         <button id="regBtn">注册</button>
         <br>
         <br>
 
-        <a href="login.html">用户登录</a>
+        <button id="loginBtn">用户登录</button>
+    </div>
+    <div id="loginDiv">
+
+        <span>登录</span><br>
+        <font>用户名：</font><input class="LoginUsername" type="text" placeholder="&nbsp;请输入用户名"><br>
+        <font>输入密码：</font><input class="loginPass" type="password" placeholder="&nbsp;请输入密码"><br>
+        <button class="loginBtn">登录</button>
+        <br>
+        <button id="toRegBtn">用户注册</button>
     </div>
 </div>
 <!--内容开始-->
